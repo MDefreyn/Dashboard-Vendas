@@ -1,6 +1,7 @@
 const DataTable = () => {
+
   return (
-    <div className="table-responsive" >
+    <div className="table-responsive">
       <table className="table table-striped table-sm">
         <thead>
           <tr>
@@ -21,8 +22,9 @@ const DataTable = () => {
           </tr>
         </tbody>
       </table>
-    </div >
+    </div>
   );
+
 }
 
 export default DataTable;
